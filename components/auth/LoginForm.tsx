@@ -31,7 +31,7 @@ export function LoginForm({ userType, onSuccess }: LoginFormProps) {
                 onSuccess();
             } else {
                 setError(userType === 'customer'
-                    ? 'Invalid phone number. Use demo numbers: +919157992385'
+                    ? 'Invalid phone number. Use demo numbers: 9157992385'
                     : 'Invalid username. Use: om.somani'
                 );
             }
